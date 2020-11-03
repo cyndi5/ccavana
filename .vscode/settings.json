@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "ccavana-dev",
+            "database": "${workspaceFolder:ccavana}/db/development.sqlite3"
+        }
+    ]
+}
