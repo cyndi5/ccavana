@@ -4,6 +4,7 @@ class ArticlesController < ApplicationController
   end
 
   def new
+    puts 'new'
   end
 
   def create
