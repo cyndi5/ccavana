@@ -1,21 +1,3 @@
 {
-    "[ruby]": {
-        "editor.tabSize": 2
-    },
-    "ruby.format": "rubocop",
-    "ruby.intellisense": "rubyLocate",
-    "ruby.useBundler": true,
-    "ruby.lint": {
-      "rubocop": {
-        "useBundler": true
-      }
-    },
-    "sqltools.connections": [
-        {
-            "previewLimit": 50,
-            "driver": "SQLite",
-            "name": "ccavana-dev",
-            "database": "${workspaceFolder:ccavana}/db/development.sqlite3"
-        }
-    ]
+    "editor.formatOnSave": true
 }
